@@ -1,0 +1,17 @@
+{
+  "name": "gracefull-shutdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ./app.config.js --watch-ready",
+    "reload": "pm2 reload all",
+    "log": "pm2 log"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pm2": "^3.4.0"
+  }
+}
