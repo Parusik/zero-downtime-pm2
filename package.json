@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start ./app.config.js --watch-ready",
+    "start": "pm2 start ./app.config.js",
     "reload": "pm2 reload all",
     "log": "pm2 log"
   },
